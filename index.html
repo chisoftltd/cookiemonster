@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Coociemonster - Nätets bästa bakverk!</title>
+    <title>Cookiemonster - Nätets bästa bakverk!</title>
     <link rel="stylesheet" href="style/main-style.css">
     <link rel="stylesheet" href="style/stars.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- jPList core -->
     <link href="style/jplist.core.min.css" rel="stylesheet" type="text/css"/>
     <script src="js/jplist.core.min.js"></script>
-
+   
+ 
     <!-- Sort Bundle -->
     <script src="js/jplist.sort-bundle.min.js"></script>
     <script>
@@ -28,7 +29,7 @@
 <div id="header"></div>
 <main>
     <div class="info-box">
-        <h1>Coociemonster - Nätets bästa bakverk!</h1>
+        <h1>Cookiemonster - Nätets bästa bakverk!</h1>
     </div>
     <div id="aside"></div>
 
@@ -41,8 +42,7 @@
 
             <div class="recepi-of-the-day-img">
                 <a id="dailyLink" href="">
-                    <img id="recepi-of-the-day-img" src="img/recepi-of-the-day.jpg" onclick="dailyMenu()"
-                         alt="dagens recept">
+                    <img id="recepi-of-the-day-img" src="" onclick="dailyMenu()" alt="dagens recept">
                 </a>
 
             </div>
@@ -212,23 +212,25 @@
                         <p class="list-link"><a href="tigercake.html">Till receptet</a></p>
 
                         <p class="like">11 Röster</p>
-                        <div class='kate'>
-                            <ul>
-                                <li><a href='#' class='one-stark'>1</a></li>
-                                <li><a href='#' class='two-stark'>2</a></li>
-                                <li><a href='#' class='three-stark'>3</a></li>
-                                <li><a href='#' class='four-stark'>4</a></li>
-                                <li><a href='#' class='five-stark'>5</a></li>
-                            </ul>
+                        
+                        
+                        <div class='emre'>
+		                <ul>
+			            <li><a href='#' class='one-stare'>1</a></li>
+			            <li><a href='#' class='two-stare'>2</a></li>
+			            <li><a href='#' class='three-stare'>3</a></li>
+			            <li><a href='#' class='four-stare'>4</a></li>
+			            <li><a href='#' class='five-stare'>5</a></li>
+		                </ul>
+	                    </div>
+
+	                    <p>Betyget är: <strong id="ratinge"> A </strong></p>
+	                    <p>Vote: <strong id="votee"> A </strong></p>
+	                    <p>Recepie: <strong id="recipee"> A </strong></p>
+
+			            <div id="messageDive"></div>
+
                         </div>
-                        <p>Betyget är: <strong id="ratingT"> A </strong></p>
-
-                        <p>Vote: <strong id="voteT"> A </strong></p>
-
-                        <p>Recepie: <strong id="recipeT"> A </strong></p>
-
-                        <div id="messageDivT"></div>
-                    </div>
                 </div>
 
                 <!-- item 5 -->
@@ -281,9 +283,12 @@
     </section>
 </main>
 <div id="footer"></div>
+
+<script src="js/dagen.js"></script>
 <script src="js/clickF2.js"></script>
 <script src="js/GetRating2.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>
 
